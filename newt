@@ -13,4 +13,4 @@ docker run \
   --privileged \
   -v $(pwd):/workspace \
   -w /workspace \
-  mynewt/newt:1.5.0-6 /newt "$@"
+  mynewt/newt:1.7.0-6 /newt "$@"
