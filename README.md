@@ -17,3 +17,15 @@ With an `nrf52840dk` board plugged in via USB, run:
 ```shell
 ./flash.sh
 ```
+
+## Serial
+
+Once the board is flashed, you can access serial console via a tool like
+`picocom`.
+
+```shell
+$ picocom -b 115200 /dev/ttyACM1
+
+033223 btshell>
+```
+
