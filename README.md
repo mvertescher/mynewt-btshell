@@ -21,7 +21,7 @@ With an `nrf52840dk` board plugged in via USB, run:
 ## Serial
 
 Once the board is flashed, you can access serial console via a tool like
-`picocom`.
+`picocom`:
 
 ```shell
 $ picocom -b 115200 /dev/ttyACM1
@@ -29,3 +29,8 @@ $ picocom -b 115200 /dev/ttyACM1
 033223 btshell>
 ```
 
+## Additional Information
+
+See some of the [official API docs][api-docs] for usage examples.
+
+[api-docs]: https://github.com/apache/mynewt-nimble/tree/master/docs/btshell
